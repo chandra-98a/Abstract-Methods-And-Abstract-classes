@@ -1,2 +1,7 @@
-package com.capgemini.abs;public class Plane {
+package com.capgemini.abs;
+
+abstract class Plane {
+abstract void fly();
+abstract void takeOff();
+abstract void land();
 }
